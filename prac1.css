@@ -1,0 +1,58 @@
+.container1{
+    display:flex;
+    justify-content:center;
+    
+}
+
+#will{
+    margin-right:5px;
+    font-size:2em;
+}
+
+#be{
+font-size:2em;
+}
+
+#girl{
+font-size:2em;
+}
+
+.container2{
+    display:flex;
+    justify-content:center;
+}
+
+.maindiv{
+    margin-top:50px;
+}
+
+.buttons{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+}
+
+#yes{
+margin-right:10px;
+font-size:1.5em;
+border-radius:10px;
+}
+
+#no{
+font-size:1.5em;
+border-radius:10px;
+}
+
+body{
+    background-color:pink;
+    animation-name:body;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+@keyframes body{
+    0%{background-color:rgb(247, 101, 101)}
+    50%{background-color:rgb(234, 121, 200)}
+    80%{background-color:lightcoral}
+}
